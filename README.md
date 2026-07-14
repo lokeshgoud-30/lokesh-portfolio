@@ -15,7 +15,7 @@
 ## 📸 Portfolio Preview
 
 <p align="center">
-  <img src="./assets/readme/about.png" alt="Portfolio Preview" width="100%">
+  <img src="[./assets/readme/about.png" alt="Portfolio Preview](https://github.com/lokeshgoud-30/lokesh-portfolio/blob/main/assets/images/readme/about.png?raw=true)" width="100%">
 </p>
 
 ---
