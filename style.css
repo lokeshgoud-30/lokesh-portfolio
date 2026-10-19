@@ -301,16 +301,11 @@ header{
 
     width:390px;
 
-    transform:scale(1.25);
-
-    transform-origin:bottom center;
-
     position:relative;
 
     z-index:2;
 
     filter:brightness(1.08);
-    
 
 }
 

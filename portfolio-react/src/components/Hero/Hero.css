@@ -1,0 +1,398 @@
+
+.hero {
+  width: min(90%, 1300px);
+  min-height: 100vh;
+  margin: 0 auto;
+  padding: 115px 0 65px;
+  display: grid;
+  grid-template-columns: minmax(0, 1.15fr) minmax(300px, 0.85fr);
+  align-items: center;
+  gap: 48px;
+  color: #ffffff;
+}
+
+.hero-content {
+  min-width: 0;
+}
+
+/* Personal introduction */
+
+.hero-greeting {
+  color: #a78bfa;
+  font-size: 1rem;
+  font-weight: 500;
+  letter-spacing: 1.5px;
+  margin-bottom: 8px;
+}
+
+.hero-name {
+  color: #ffffff;
+  font-size: clamp(2.5rem, 4.5vw, 3.8rem);
+  font-weight: 700;
+  line-height: 1.15;
+  letter-spacing: -1.2px;
+  margin-bottom: 12px;
+  overflow-wrap: break-word;
+}
+
+.hero-subtitle {
+  color: #a78bfa;
+  font-size: 0.82rem;
+  font-weight: 500;
+  letter-spacing: 1.5px;
+  line-height: 1.7;
+  margin-bottom: 18px;
+}
+
+.hero-subtitle span {
+  margin: 0 5px;
+}
+
+/* Main headline */
+
+.hero-title {
+  color: #ffffff;
+  font-size: clamp(1.8rem, 3vw, 2.65rem);
+  font-weight: 700;
+  line-height: 1.2;
+  letter-spacing: -0.7px;
+  margin-bottom: 18px;
+  overflow-wrap: break-word;
+}
+
+.hero-title span {
+  display: block;
+  color: #a78bfa;
+}
+
+.hero-description {
+  max-width: 520px;
+  color: #b8b8b8;
+  font-size: 0.96rem;
+  line-height: 1.8;
+  margin-bottom: 24px;
+}
+
+/* Skill badges */
+
+.hero-skills {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px;
+  margin-bottom: 28px;
+}
+
+.hero-skill {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  gap: 9px;
+  padding: 10px 15px;
+  border: 1px solid rgba(255, 255, 255, 0.12);
+  border-radius: 12px;
+  background: rgba(255, 255, 255, 0.035);
+  color: #d4d4d8;
+  font-size: 0.9rem;
+  white-space: nowrap;
+  transition:
+    background 0.25s ease,
+    border-color 0.25s ease,
+    transform 0.25s ease;
+}
+
+.hero-skill i {
+  font-size: 1rem;
+}
+
+/* Recognizable skill icon colors */
+
+.hero-skill-python i {
+  color: #3776ab;
+}
+
+.hero-skill-sql i {
+  color: #4479a1;
+}
+
+.hero-skill-react i {
+  color: #61dafb;
+}
+
+.hero-skill-node i {
+  color: #68a063;
+}
+
+.hero-skill-powerbi i {
+  color: #f2c811;
+}
+
+.hero-skill:hover {
+  background: rgba(139, 92, 246, 0.12);
+  border-color: rgba(167, 139, 250, 0.6);
+  transform: translateY(-2px);
+}
+
+/* Buttons */
+
+.hero-buttons {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 12px;
+  margin-bottom: 24px;
+}
+
+.hero-btn {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  padding: 12px 22px;
+  border: 1px solid #8b5cf6;
+  border-radius: 10px;
+  font-size: 0.92rem;
+  text-decoration: none;
+  transition:
+    background 0.25s ease,
+    transform 0.25s ease;
+}
+
+.hero-btn-primary {
+  background: #8b5cf6;
+  color: #ffffff;
+}
+
+.hero-btn-primary:hover {
+  background: #7c3aed;
+  transform: translateY(-2px);
+}
+
+.hero-btn-secondary {
+  background: transparent;
+  color: #ffffff;
+}
+
+.hero-btn-secondary:hover {
+  background: rgba(139, 92, 246, 0.14);
+  transform: translateY(-2px);
+}
+
+/* Social links */
+
+.hero-socials {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+}
+
+.hero-socials a {
+  width: 42px;
+  height: 42px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border: 1px solid rgba(255, 255, 255, 0.08);
+  border-radius: 50%;
+  background: rgba(255, 255, 255, 0.05);
+  color: #ffffff;
+  text-decoration: none;
+  transition:
+    background 0.25s ease,
+    transform 0.25s ease;
+}
+
+.hero-socials a:hover {
+  background: #8b5cf6;
+  transform: translateY(-3px);
+}
+
+/* Profile image */
+
+.hero-visual {
+  display: flex;
+  justify-content: center;
+  min-width: 0;
+}
+
+.hero-profile-card {
+  position: relative;
+  width: min(100%, 390px);
+  height: 480px;
+  display: flex;
+  align-items: flex-end;
+  justify-content: center;
+  overflow: hidden;
+  border: 1px solid rgba(255, 255, 255, 0.08);
+  border-radius: 28px;
+  background: radial-gradient(
+    circle at 50% 35%,
+    rgba(139, 92, 246, 0.2),
+    rgba(255, 255, 255, 0.025) 65%
+  );
+}
+
+.hero-profile-image {
+  position: relative;
+  z-index: 1;
+  display: block;
+  width: 100%;
+  max-height: 100%;
+  object-fit: contain;
+  object-position: bottom;
+}
+
+/* Open-to-work badge */
+
+.hero-status {
+  position: absolute;
+  z-index: 2;
+  bottom: 22px;
+  left: 50%;
+  display: flex;
+  align-items: center;
+  gap: 9px;
+  padding: 10px 16px;
+  border: 1px solid rgba(255, 255, 255, 0.08);
+  border-radius: 30px;
+  background: rgba(8, 12, 28, 0.9);
+  color: #ffffff;
+  font-size: 0.72rem;
+  letter-spacing: 1.5px;
+  white-space: nowrap;
+  transform: translateX(-50%);
+}
+
+.hero-status-dot {
+  width: 9px;
+  height: 9px;
+  flex-shrink: 0;
+  border-radius: 50%;
+  background: #22c55e;
+}
+
+/* Tablet layout */
+
+@media (max-width: 1024px) {
+  .hero {
+    grid-template-columns: 1fr;
+    gap: 36px;
+    padding-top: 120px;
+    text-align: center;
+  }
+
+  .hero-content {
+    order: 2;
+  }
+
+  .hero-visual {
+    order: 1;
+  }
+
+  .hero-name {
+    font-size: clamp(2.5rem, 5vw, 3.4rem);
+  }
+
+  .hero-title {
+    max-width: 700px;
+    margin-right: auto;
+    margin-left: auto;
+    font-size: clamp(2rem, 4vw, 2.7rem);
+  }
+
+  .hero-description {
+    margin-right: auto;
+    margin-left: auto;
+  }
+
+  .hero-skills,
+  .hero-buttons,
+  .hero-socials {
+    justify-content: center;
+  }
+
+  .hero-profile-card {
+    width: 320px;
+    height: 390px;
+  }
+}
+
+/* Mobile layout */
+
+@media (max-width: 600px) {
+  .hero {
+    width: 90%;
+    min-height: auto;
+    padding-top: 105px;
+    padding-bottom: 55px;
+    gap: 28px;
+  }
+
+  .hero-greeting {
+    font-size: 0.9rem;
+    letter-spacing: 1px;
+  }
+
+  .hero-name {
+    font-size: clamp(2rem, 8vw, 2.8rem);
+    line-height: 1.2;
+    letter-spacing: -0.6px;
+    margin-bottom: 12px;
+  }
+
+  .hero-subtitle {
+    font-size: 0.7rem;
+    letter-spacing: 1px;
+    margin-bottom: 14px;
+  }
+
+  .hero-title {
+    font-size: clamp(1.65rem, 6.5vw, 2.2rem);
+    line-height: 1.25;
+    letter-spacing: -0.4px;
+  }
+
+  .hero-description {
+    font-size: 0.88rem;
+    line-height: 1.75;
+    margin-bottom: 20px;
+  }
+
+  .hero-skills {
+    gap: 8px;
+    margin-bottom: 22px;
+  }
+
+  .hero-skill {
+    gap: 7px;
+    padding: 9px 11px;
+    border-radius: 10px;
+    font-size: 0.8rem;
+  }
+
+  .hero-skill i {
+    font-size: 0.9rem;
+  }
+
+  .hero-buttons {
+    gap: 10px;
+  }
+
+  .hero-btn {
+    padding: 11px 15px;
+    font-size: 0.82rem;
+  }
+
+  .hero-profile-card {
+    width: min(78vw, 300px);
+    height: min(100vw, 360px);
+    border-radius: 22px;
+  }
+}
+
+/* Accessibility */
+
+@media (prefers-reduced-motion: reduce) {
+  .hero-skill,
+  .hero-btn,
+  .hero-socials a {
+    transition: none;
+  }
+}
