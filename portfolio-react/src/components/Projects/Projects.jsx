@@ -17,7 +17,7 @@ const projects = [
       "Supabase",
     ],
     linkType: "Live Website",
-    link: "https://the-crochee-frontend.onrender.com/",
+    link: "https://the-crochee-in.onrender.com",
     video: "/assets/videos/The-Crochee.mp4",
   },
   {
