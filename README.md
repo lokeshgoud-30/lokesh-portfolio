@@ -1,110 +1,83 @@
-<div align="center">
+# Lokesh Gounipalli
 
-# 🚀 Lokesh Gounipalli
+**Software Developer | Data Analyst**
 
-### Software Developer • Data Analytics Enthusiast
+Building practical software solutions and transforming data into actionable insights.
 
-🌐 **Live Portfolio:** https://lokeshg.vercel.app
-
-[Visit Portfolio](https://lokeshg.vercel.app)
-
-</div>
-
----
-
-## 📸 Portfolio Preview
-
-<p align="center">
-  <img src="assets/images/readme/about.png" alt="Portfolio Preview" width="100%">
-</p>
+🌐 **Portfolio:** [lokeshg.vercel.app](https://lokeshg.vercel.app)  
+💼 **LinkedIn:** [linkedin.com/in/lokesh-gounipalli](https://www.linkedin.com/in/lokesh-gounipalli/)  
+💻 **GitHub:** [github.com/lokeshgoud-30](https://github.com/lokeshgoud-30)  
+📧 **Email:** [lokesh.dev3030@gmail.com](mailto:lokesh.dev3030@gmail.com)
 
 ---
 
-## 👨‍💻 About
+## About Me
 
-Hi! I'm **Lokesh Gounipalli**, a final-year B.Tech student in **Electronics and Instrumentation Engineering** with a strong passion for **Software Development** and **Data Analytics**.
+I'm a B.Tech graduate with a strong interest in software development, data analytics, and building technology-driven solutions.
 
-I enjoy building real-world applications, solving practical problems, and continuously improving my skills through hands-on projects. My focus is on writing clean, efficient code and creating user-friendly solutions that deliver real value.
+I enjoy developing full-stack applications, working with databases, and analyzing data to uncover meaningful insights. Through hands-on projects, I focus on combining technical problem-solving with clean implementation and intuitive user experiences.
 
----
+I'm continuously expanding my skills and exploring opportunities to contribute to impactful software and analytics projects.
 
-## 🛠 Tech Stack
+## Technical Skills
 
-### Programming Languages
-- Python
-- SQL
-- JavaScript
+**Programming:** Python, JavaScript, SQL
 
-### Web Technologies
-- HTML5
-- CSS3
-- Responsive Design
+**Frontend:** React.js, HTML5, CSS3, Responsive Web Design
 
-### Data Analytics
-- Power BI
-- Advanced Excel
-- DAX
-- Power Query
+**Backend & Databases:** Node.js, Express.js, PostgreSQL, Supabase
 
-### Development Tools
-- Git
-- GitHub
-- VS Code
+**Data Analytics:** Power BI, DAX, Power Query, Advanced Excel, Pandas, NumPy
 
----
+**Tools:** Git, GitHub, VS Code, Postman
 
-## ✨ Portfolio Features
+## Featured Projects
 
-- Modern & Responsive Design
-- Interactive User Interface
-- Skills & Education Tabs
-- Horizontal Project Showcase
-- Functional Contact Form
-- Resume Download
-- Smooth Scrolling & Animations
-- Mobile-Friendly Layout
+### The Crochee — Full-Stack E-commerce Platform
 
----
+A full-stack e-commerce platform for handmade crochet products, featuring product discovery, authentication, cart management, checkout, order tracking, wishlists, custom orders, and an administrative dashboard.
 
-## 📂 Featured Projects
+**Tech Stack:** React.js, Node.js, Express.js, PostgreSQL, Supabase
 
-### 🎓 Next-Gen Student Ecosystem
-An AI-powered student management platform with role-based access, attendance tracking, analytics, and centralized academic management.
+[Live Application](https://the-crochee-frontend.onrender.com/)
 
-### 🏏 IPL Insights Dashboard
-Interactive Power BI dashboard analyzing IPL data (2008–2025) using DAX, Power Query, and dynamic visualizations.
+### Next-Gen Student Ecosystem
 
-### 🏦 Nation Bank
-Object-Oriented Banking System developed in Python featuring secure PIN authentication, transaction history, and file handling.
+A student management platform designed to centralize academic workflows, with role-based access, attendance management, and analytics.
 
-### 🎬 Netflix Data Analysis
-Python-based exploratory data analysis using Pandas and NumPy to uncover insights from Netflix datasets.
+**Tech Stack:** React.js, JavaScript, Full-Stack Development
 
-### 🍽 Hotel Bill Generator
-Console-based restaurant billing system with GST calculation, automated bill generation, and file handling.
+[View on GitHub](https://github.com/lokeshgoud-30/next-gen-student-ecosystem)
 
----
+### IPL Insights Dashboard
 
-## 📬 Connect With Me
+An interactive Power BI dashboard exploring IPL data from 2008–2025 through visual analytics, calculated measures, and data transformation.
 
-🌐 Portfolio  
-https://lokeshg.vercel.app
+**Tech Stack:** Power BI, DAX, Power Query
 
-💼 LinkedIn  
-https://www.linkedin.com/in/lokesh-gounipalli/
+[View on GitHub](https://github.com/lokeshgoud-30/ipl_insights)
 
-💻 GitHub  
-https://github.com/lokeshgoud-30
+### Netflix Data Analysis
 
-📧 Email  
-lokesh.dev3030@gmail.com
+An exploratory data analysis project focused on identifying trends and patterns in Netflix content using Python data analysis libraries.
 
----
+**Tech Stack:** Python, Pandas, NumPy, Data Visualization
 
-<div align="center">
+[View on GitHub](https://github.com/lokeshgoud-30/Netflix-Big-Data-Analysist)
 
-### ⭐ If you like this project, consider giving it a star!
+## What I Focus On
 
-Thank you for visiting my portfolio. 🚀
+- Developing maintainable, user-focused software applications.
+- Building responsive interfaces and integrating backend services.
+- Designing database-driven applications and REST APIs.
+- Transforming datasets into meaningful visualizations and insights.
+- Continuously learning, experimenting, and improving through practical projects.
 
-</div>
+## Let's Connect
+
+I'm open to opportunities in **Software Development, Full-Stack Development, and Data Analytics**.
+
+- **Portfolio:** [lokeshg.vercel.app](https://lokeshg.vercel.app)
+- **LinkedIn:** [Connect with me](https://www.linkedin.com/in/lokesh-gounipalli/)
+- **GitHub:** [Explore my projects](https://github.com/lokeshgoud-30)
+- **Email:** [Get in touch](mailto:lokesh.dev3030@gmail.com)
