@@ -39,7 +39,7 @@ A full-stack e-commerce platform for handmade crochet products, featuring produc
 
 **Tech Stack:** React.js, Node.js, Express.js, PostgreSQL, Supabase
 
-[Live Application](https://the-crochee-frontend.onrender.com/)
+[Live Application](https://the-crochee-in.onrender.com/)
 
 ### Next-Gen Student Ecosystem
 
