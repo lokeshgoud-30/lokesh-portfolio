@@ -4,7 +4,7 @@
 
 Building practical software solutions and transforming data into actionable insights.
 
-🌐 **Portfolio:** [lokeshg.vercel.app](https://lokeshg.vercel.app)  
+🌐 **Portfolio:** [lokesh-gounipalli.vercel.app](https://lokesh-gounipalli.vercel.app/)  
 💼 **LinkedIn:** [linkedin.com/in/lokesh-gounipalli](https://www.linkedin.com/in/lokesh-gounipalli/)  
 💻 **GitHub:** [github.com/lokeshgoud-30](https://github.com/lokeshgoud-30)  
 📧 **Email:** [lokesh.dev3030@gmail.com](mailto:lokesh.dev3030@gmail.com)
@@ -77,7 +77,7 @@ An exploratory data analysis project focused on identifying trends and patterns 
 
 I'm open to opportunities in **Software Development, Full-Stack Development, and Data Analytics**.
 
-- **Portfolio:** [lokeshg.vercel.app](https://lokeshg.vercel.app)
+- **Portfolio:** [lokesh-gounipalli.vercel.app](https://lokesh-gounipalli.vercel.app/)
 - **LinkedIn:** [Connect with me](https://www.linkedin.com/in/lokesh-gounipalli/)
 - **GitHub:** [Explore my projects](https://github.com/lokeshgoud-30)
 - **Email:** [Get in touch](mailto:lokesh.dev3030@gmail.com)
