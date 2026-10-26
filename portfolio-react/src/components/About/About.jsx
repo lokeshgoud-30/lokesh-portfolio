@@ -1,3 +1,4 @@
+
 import { useState } from "react";
 import {
   Laptop,
@@ -266,43 +267,41 @@ export default function About() {
             </h2>
 
             <p className="about-heading-description">
-              My background, technical skills, education, and development
-              journey.
+               A little about how I think, build, and solve problems.
             </p>
           </header>
 
           <div className="about-introduction">
-            <h3>Who am I?</h3>
+            <h3>My Approach</h3>
 
             <p>
-              I&apos;m Lokesh Gounipalli, an Electronics and Instrumentation
-              Engineering graduate from Mohan Babu University, passionate
-              about software development and data analytics. I enjoy building
-              practical applications and exploring how technology can solve
-              real-world problems.
+              I enjoy turning ideas into practical solutions through
+              technology, combining creative problem-solving with a strong
+              focus on usability and real-world impact. I'm passionate about
+              building meaningful applications, exploring data, and finding
+              smarter ways to solve complex problems.
             </p>
 
             <p>
-              Through hands-on projects, I&apos;ve been developing my skills
-              in Python, SQL, Power BI, and full-stack web development.
-              I&apos;m looking forward to applying these skills in a
-              professional environment and continuing to learn.
+              With a hands-on approach to learning and development, I focus on
+              creating efficient solutions, uncovering valuable insights, and
+              continuously improving the way I build and think.
             </p>
 
             <div className="about-highlights">
               <article className="about-highlight">
                 <Code2 aria-hidden="true" />
                 <div>
-                  <h4>Development</h4>
-                  <p>Building practical applications</p>
+                  <h4>Application Development</h4>
+                  <p>Building full-stack applications and practical digital solutions.</p>
                 </div>
               </article>
 
               <article className="about-highlight">
                 <ChartNoAxesColumn aria-hidden="true" />
                 <div>
-                  <h4>Data Analytics</h4>
-                  <p>Finding insights in data</p>
+                  <h4>Data & Insights</h4>
+                  <p>Analyzing data and creating dashboards that support informed decisions.</p>
                 </div>
               </article>
             </div>
